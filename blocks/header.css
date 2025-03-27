@@ -1,7 +1,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  background-color: aquamarine;
+  background-color: #1b1b1b;
 }
 
 .header__nav {
@@ -10,25 +10,25 @@
   margin: 0 85px 0 85px;
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #fcb8c4;
 }
 
 .header__nav_links {
   width: 717px;
-  height: 18px;
   margin: 0;
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  gap: 20px;
 }
 
 .header__nav_link {
-  font-family: "Colored", Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-family: "Playmaker", Arial, Helvetica, sans-serif;
+  font-size: 30px;
   line-height: 100%;
   text-decoration: none;
-  /* color: #fff; */
+  color: blueviolet;
 }
 
 .header__social {
@@ -41,16 +41,15 @@
 .header__social_list {
   margin: 0;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   list-style-type: none;
+  gap: 25px;
 }
 
 .header__list-item {
   width: 30px;
   height: 30px;
   margin: 0;
-  padding-left: 25px;
 }
 
 .header__social-icon {
@@ -80,9 +79,9 @@
   height: 72px;
   margin: 0;
   margin-right: 66px;
-  color: salmon;
-  font-family: "Blonde", Arial, Helvetica, sans-serif;
-  font-size: 55px;
+  color: #fff;
+  font-family: "Enigma", Arial, Helvetica, sans-serif;
+  font-size: 44px;
   /* font-weight: bold; */
   line-height: auto;
   align-content: center;
@@ -116,14 +115,13 @@
 
 .header__bottom {
   width: 920px;
-  /* height: 100px; */
   margin: auto 180px 44px;
   display: flex;
   flex-direction: column;
 }
 
 .header__bottom-text {
-  margin: 0 0 30px;
+  margin: 0 0 45px;
   color: #fff;
   font-family: "Rubik", Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -133,7 +131,6 @@
 .header__logos {
   display: flex;
   justify-content: space-between;
-  gap: 80px;
 }
 
 .header__logo {
