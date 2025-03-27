@@ -2,3 +2,18 @@
   font-family: "Rubik";
   src: url(/fonts/Rubik-VariableFont_wght.ttf);
 }
+
+@font-face {
+  font-family: "Colored";
+  src: url(/fonts/Bigparty4blue-x3W8q.ttf);
+}
+
+@font-face {
+  font-family: "Blonde";
+  src: url(/fonts/BlondepersonaluseBolditalic-mLOva.otf);
+}
+
+@font-face {
+  font-family: "Aloha";
+  src: url(/fonts/AlohaoctopuspersonaluseReg-gx56R.otf);
+}
