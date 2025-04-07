@@ -1,0 +1,113 @@
+.dubbing {
+  max-width: 100%;
+  max-height: fit-content;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.dubbing__header_title {
+  margin: 80px 0 0 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  line-height: 100%;
+  color: #080808;
+}
+
+.dubbing__header-paragraph {
+  width: 570px;
+  margin: 14px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1%;
+  text-align: center;
+}
+
+.dubbing__card {
+  width: 900px;
+  height: 300px;
+  margin: 60px 0 0 80px;
+  display: flex;
+}
+
+.dubbing__card-reversed {
+  flex-direction: row-reverse;
+}
+
+.dubbing__card_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+.dubbing__card_info-reversed {
+  margin-left: 26px;
+}
+
+.dubbing__card_company-container {
+  width: 100px;
+  height: 24px;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.dubbing__card_company-container_crunchy {
+  background-color: #fff6e9;
+}
+
+.dubbing__card_company-container_netflix {
+  width: 60px;
+  background-color: #ffb1bb;
+}
+
+.dubbing__card_company {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  line-height: 100%;
+}
+
+.dubbing__card_company_crunchy {
+  color: #ffa217;
+}
+
+.dubbing__card_company_netflix {
+  color: #e50914;
+}
+
+.dubbing__card_title {
+  width: fit-content;
+  margin: 20px 0 0 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 100%;
+  color: #080808;
+}
+
+.dubbing__card_description {
+  width: fit-content;
+  margin: 10px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 14px;
+  line-height: 1.7;
+  letter-spacing: 1%;
+  color: #9c9c9c;
+  text-align: left;
+}
+
+.dubbing__card_image {
+  width: 445px;
+  height: 300px;
+  margin: 0;
+  border-radius: 15px;
+}
