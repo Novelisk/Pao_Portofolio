@@ -1,23 +1,24 @@
-.dubbing {
+.directions {
   max-width: 100%;
   max-height: fit-content;
   margin: 0 auto;
+  background-color: #000;
   padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.dubbing__header_title {
+.directions__header_title {
   margin: 50px 0 0 0;
   font-family: "Rubik", sans-serif;
   font-weight: bolder;
   font-size: 32px;
   line-height: 100%;
-  color: #080808;
+  color: #fff;
 }
 
-.dubbing__header-paragraph {
+.directions__header-paragraph {
   width: 570px;
   margin: 14px 0 0 0;
   font-family: "Raleway", sans-serif;
@@ -25,31 +26,32 @@
   line-height: 1.5;
   letter-spacing: 1%;
   text-align: center;
+  color: #fff;
 }
 
-.dubbing__card {
+.directions__card {
   width: 900px;
   height: 300px;
   margin: 60px 0 0 80px;
   display: flex;
 }
 
-.dubbing__card-reversed {
+.directions__card-reversed {
   flex-direction: row-reverse;
 }
 
-.dubbing__card_info {
+.directions__card_info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0;
 }
 
-.dubbing__card_info-reversed {
+.directions__card_info-reversed {
   margin-left: 26px;
 }
 
-.dubbing__card_company-container {
+.directions__card_company-container {
   width: 100px;
   height: 24px;
   border-radius: 60px;
@@ -59,59 +61,41 @@
   margin: 0;
 }
 
-.dubbing__card_company-container_crunchy {
+.directions__card_company-container_crunchy {
   background-color: #fff6e9;
 }
 
-.dubbing__card_company-container_netflix {
-  width: 60px;
-  background-color: #fad4d4;
-}
-
-.dubbing__card_company-container_discovery {
+.directions__card_company-container_discovery {
   width: 130px;
   background-color: #98ebfa;
 }
 
-.dubbing__card_company-container_paramount {
-  width: 90px;
-  background-color: #99d2f7;
-}
-
-.dubbing__card_company {
+.directions__card_company {
   margin: 0;
   font-family: "Rubik", sans-serif;
   font-size: 12px;
   line-height: 100%;
 }
 
-.dubbing__card_company_crunchy {
+.directions__card_company_crunchy {
   color: #ffa217;
 }
 
-.dubbing__card_company_netflix {
-  color: #e50914;
-}
-
-.dubbing__card_company_discovery {
+.directions__card_company_discovery {
   color: darkblue;
 }
 
-.dubbing__card_company_paramount {
-  color: #0064ff;
-}
-
-.dubbing__card_title {
+.directions__card_title {
   width: fit-content;
   margin: 20px 0 0 0;
   font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: bolder;
   line-height: 100%;
-  color: #080808;
+  color: #fff;
 }
 
-.dubbing__card_description {
+.directions__card_description {
   width: fit-content;
   margin: 10px 0 0 0;
   font-family: "Raleway", sans-serif;
@@ -122,14 +106,14 @@
   text-align: left;
 }
 
-.dubbing__card_image {
+.directions__card_image {
   width: 445px;
   height: 300px;
   margin: 0;
   border-radius: 15px;
-  box-shadow: 10px 5px 5px #9c9c9c;
+  box-shadow: 10px 5px 5px lightblue;
 }
 
-.dubbing__card_image-reversed {
-  box-shadow: -10px 5px 5px #9c9c9c;
+.directions__card_image-reversed {
+  box-shadow: -10px 5px 5px lightblue;
 }
